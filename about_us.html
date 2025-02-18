@@ -2,10 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewpo rt" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us </title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .about, .stats, .join, .benefits {
+            padding: 40px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 900px;
+            background: #222;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .about:hover, .stats:hover, .join:hover, .benefits:hover {
+            transform: scale(1.03);
+        }
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .about img {
+            height:100px;
+            width: 100px;
+            border-radius: 10px;
+            float:right;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .stat-box {
+            background: linear-gradient(135deg, #444, #666);
+            padding: 20px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            font-size: 20px;
+            font-weight: bold;
+            min-width: 120px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, select, button {
+            margin: 10px;
+            padding: 12px;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        input, select {
+            background-color: #333;
+            color: white;
+        }
+        button {
+            background: linear-gradient(135deg, #ff8c00, #ff4500);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #ff4500, #ff8c00);
+        }
+    </style>
 </head>
 <body>
-    <h1>About us</h1>
+    <header>
+        <h1>ABOUT CURIEUX</h1>
+    </header>
+    <section class="about">
+        <div class="content">
+            <p>For last year's words belong to the last year's language and next year's words await another voice. Curieux (French for curious)-The Computer Science Society of S.G.T.B Khalsa College, University of Delhi is here with great curiousness, spirit and passion. It was launched on 11th February, 2014 under the guidance of Mr. Param Dev Sharma by the 2013 computer science batch of the college. The Society functions under the guidance of an Executive Committee. The members of this Committee are elected by voting members of the Society. The functional head of the Society is the President and is assisted by the Vice President and the Secretary.The wide spectrum of members is committed to the advancement of individual skill set in the fields of computer sciences and engineering, networking, information processing, robotics and related arts & sciences. The society also encourages students from non technical background having keen interest in computers to learn alongside computer personals.
+
+                It all started with just a printf("HELLO WORLD"); and has become a tradition which the geeks of Curieux are going to speak. And now, Curieux team is here with more workshops, tremendous gaming events, fun activities, lively competitions, seminars on tech & programming and technical talks for the benefit of students and users of IT apart from conducting education and professional development programmes for a focused audience of budding students.
+            </p>
+        </div>
+        <div class="image">
+            <img src="logo.png" alt="Curieux">
+        </div>
+    </section>
+    <section class="stats">
+        <div class="stat-box"><h2>10+</h2><p>Years of Existence</p></div>
+        <div class="stat-box"><p>Won 3 events</p></div>
+    </section>
+    <section class="join">
+        <h2>Join Now</h2>
+        <form>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Roll Number">
+            <input type="email" placeholder="Email ID">
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section class="benefits">
+        <h2>BENEFITS OF JOINING CURIEUX</h2>
+        <p>Curieux offers numerous benefits including access to research...</p>
+    </section>
 </body>
 </html>

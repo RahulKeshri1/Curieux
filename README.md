@@ -21,13 +21,12 @@ This repository contains the source code for the official website of **Curieux**
 
 ## 🔧 Setup Instructions
 To run this project locally:
-git clone https://github.com/RahulKeshri1/Curieux.git
 1. **Clone the repository**  
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/RahulKeshri1/Curieux.git
 2. Navigate to the project directory
    ```
-   cd your-repo
+   cd Curieux
 3. Start a local server (For PHP development, use XAMPP, WAMP, or a built-in PHP server)
    ```
    php -S localhost:8000

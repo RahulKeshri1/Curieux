@@ -21,7 +21,7 @@ This repository contains the source code for the official website of **Curieux**
 
 ## 🔧 Setup Instructions
 To run this project locally:
-
+git clone https://github.com/RahulKeshri1/Curieux.git
 1. **Clone the repository**  
    ```
    git clone https://github.com/your-username/your-repo.git
